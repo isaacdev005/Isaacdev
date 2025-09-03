@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Página Principal</a></li>
+      <li><a href="on.html">Sobre a Clinica</a></li>
+      <li><a href="time.html">Horário de atendimento</a></li>
+      <li><a href="contact.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header class="header-contato">
+    <h1>Fale Conosco</h1>
+  </header>
+  <main>
+    <div class="card">
+      <div class="card-body">
+        <h2>Informações de Contato</h2>
+        <p><strong>Telefone:</strong> (11) 1234-5678</p>
+        <p><strong>WhatsApp:</strong> (11) 98765-4321</p>
+        <p><strong>Endereço:</strong> Rua da Saúde, 123 - Bairro Bem-Estar, São Paulo - SP, 01234-567</p>
+        <div class= "contato">
+          <img src="img/Comunicação Digital Minimalista.png" alt="ilustração" width="200px">
+          </div>
+
+        <div class="cards-container">
+
+          <!-- CARD DO MAPA -->
+          <div class="card">
+            <div class="card-body">
+              <h2>Localização</h2>
+              <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0500000000006!2d-46.633308!3d-23.550520!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c123456789%3A0xabcdef123456789!2sRua%20da%20Sa%C3%BAde%2C%20123%20-%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1690000000000!5m2!1spt-BR!2sbr"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD DO FORMULÁRIO -->
+          <div class="card">
+            <div class="card-body">
+              <h2>Envie sua Mensagem</h2>
+              <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <div class="botoes-form">
+                  <button type="submit" class="btn-enviar">Enviar</button>
+                  <button type="reset" class="btn-limpar">Limpar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        
+  </main>
+</body>
+<footer>
+    &copy; 2025 Clínica Bem-Estar - Todos os direitos reservados | Telefone: (00) 1234-5678
+  </footer>
+</html>
